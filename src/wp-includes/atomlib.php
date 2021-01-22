@@ -216,7 +216,7 @@ class AtomParser {
             $this->content_ns_decls = array();
 
             if($this->is_html || $this->is_text)
-                trigger_error("Invalid content in element found. Content must not be of type text or html if it contains markup.");
+                trigger_error("Invalid content in element found. Content must not be of type text or HTML if it contains markup.");
 
             $attrs_prefix = array();
 
